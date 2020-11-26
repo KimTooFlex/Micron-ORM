@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Micron</id>
+    <version>1.0.0</version>
+    <title>Micron ORM MySQL (NEW)</title>
+    <authors>KimTooFlex</authors>
+    <owners>KimTooFlex</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://kimtooflex@bitbucket.org/kimtooflex/micron.git</projectUrl>
+    <iconUrl>https://i.ibb.co/hggPjD7/Picture2.png</iconUrl>
+    <description>Handy and Fast MYSQL Micro ORM for .Net</description>
+    <summary></summary>
+    <releaseNotes>Initial Release.</releaseNotes>
+    <copyright>© 2019 KimTooFLex</copyright>
+    <tags>orm mysql micro fast database entity sql wpf winforms web rest api service</tags>
+  </metadata>
+  <files>
+    <file src="lib\Micron.dll" target="lib\Micron.dll" />
+    <file src="lib\MySql.Data.dll" target="lib\MySql.Data.dll" />
+    <file src="tools\Micron.dll" target="tools\Micron.dll" />
+    <file src="tools\MySql.Data.dll" target="tools\MySql.Data.dll" />
+  </files>
+</package>
